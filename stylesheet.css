@@ -1,0 +1,90 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+    overflow-wrap: break-word;
+    width: 100%;
+}
+
+.headerpic {
+    height: 60vh;
+}
+
+#coverphoto {
+    height: 100%;
+}
+
+#coverpicture {
+    height: 100%;
+    width: 100%;
+    box-shadow: 0px 0px 14px 5px rgba(209, 207, 209, 1);
+    padding: 5px;
+}
+
+.active {
+    background-color: black;
+    padding: 10px;
+    margin: 10px 0;
+    color: white;
+    font-style: bold;
+    text-align: center;
+}
+
+#About {
+    text-decoration: none;
+    font-size: 1em;
+}
+
+#About li {
+    list-style: none;
+    padding: 15px 0;
+    font-size: 1em;
+}
+
+.listDetails {
+    padding: 10px 0;
+}
+
+.feedPost {
+    text-align: center;
+    padding: 10px;
+}
+
+.noRightPadding {
+    padding-right: 0;
+}
+
+.newNav {
+    font-size: 2.5vmax;
+}
+
+.newNav a {
+    text-decoration: none;
+}
+
+.newNav a li {
+    padding-left: 5%;
+}
+
+.activeTab {
+    border: 1px solid #000;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.navDetails {
+    border: 1px solid;
+}
+
+@media only screen and (max-width: 480px) {
+    #responsiveaboutlist {
+        padding: 0px;
+        font-size: 0.8em;
+    }
+    .responsivecontentabout {
+        padding-left: 40px;
+        font-size: 0.8em;
+    }
+}

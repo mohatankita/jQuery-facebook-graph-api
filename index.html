@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Facebook </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="./stylesheet.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Cover Pic -->
+        <div class="row">
+            <div class="container headerpic">
+                <div class="row" id="coverphoto">
+                </div>
+            </div>
+        </div>
+
+        <h2 class="active">ANKITA MOHATA</h2>
+
+        <!-- Menubar -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 noRightPadding">
+                    <ul class="nav nav-pills nav-stacked newNav">
+                        <a href="#About">
+                            <li id="aboutme">About</li>
+                        </a>
+                        <a href="#Timeline">
+                            <li id="timeline">Timeline</li>
+                        </a>
+                    </ul>
+                </div>
+
+                <!-- About Section -->
+                <div class="col-md-9 col-lg-9 col-sm-9 col-xs-9 navDetails">
+                    <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12" id="About">
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" id="responsiveaboutlist">
+                            <ul class="listDetails">
+                                <a href="#overview">
+                                    <li class="row" id="Over-view">Overview</li>
+                                </a>
+                                <a href="#workneducation">
+                                    <li class="row" id="work-edu">Work & Education</li>
+                                </a>
+                                <a href="#contactnbasicinfo">
+                                    <li class="row" id="contact-info">Contact & Relationship</li>
+                                </a>
+                                <a href="#familynrelation">
+                                    <li class="row" id="family">Family & Relationship</li>
+                                </a>
+                                <a href="#details">
+                                    <li class="row" id="deTail">Details</li>
+                                </a>
+                            </ul>
+                        </div>
+                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 responsivecontentabout">
+                            <div id="overview">
+                                <div class="row">NAME : <span class="name"></span></div>
+                                <hr />
+                                <div class="row"><i class="fa fa-birthday-cake"></i><span id="birthday"></span></div>
+                                <hr />
+                                <div class="row">WORK : <span class="work"></span></div>
+                                <hr />
+                                <div class="row">EDUCATION : <span class="education"></span></div>
+                                <hr />
+                                <div class="row">HOMETOWN : <span class="hometown"></span></div>
+                                <hr />
+                            </div>
+                            <div id="workneducation">
+                                <div class="row">WORK : <span class="work"></span></div>
+                                <hr />
+                                <div class="row">EDUCATION : <span class="education"></span></div>
+                                <hr />
+                            </div>
+                            <div id="contactnbasicinfo">
+                                <div class="row">EMAIL : <span id="email"></span></div>
+                                <hr />
+                                <div class="row">PERSONAL WEBSITE : <span id="website"></span></div>
+                                <hr />
+                                <div class="row">GENDER : <span id="gender"></span></div>
+                                <hr />
+                                <div class="row">LANGUAGES : <span id="languagesknown"></span></div>
+                                <hr />
+                            </div>
+                            <div id="familynrelation">
+                                <div class="row">RELATIONSHIP STATUS : <span id="relationship"></span></div>
+                                <hr />
+                            </div>
+                            <div id="details">
+                                <div class="row">ABOUT : <span id="bio"></span></div>
+                                <hr />
+                                <div class="row">QUOTES : <span id="favquotes"></div>
+                                <hr />
+                            </div>
+                        </div>  
+                    </div>          
+                </div>
+
+                <!-- About Timeline -->
+
+                <div class="col-md-9 col-lg-9 col-sm-9 col-xs-9 navDetails" id="Timeline">
+                    <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12" id="feedPost">
+                    </div>
+                </div>
+            </div>
+        </div>     
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./jquerygetfbdata.js"></script>
+    
+</body>
+</html>
