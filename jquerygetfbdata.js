@@ -8,7 +8,7 @@ $(document).ready(function() {
     $("#Timeline").hide();
 
     //getting fb token
-    var token = 'EAACEdEose0cBAAD0D29UGRtUoNeX11Mn4nvbML6AC2YuWHvWs0wJIVOKxETnBBbZA3reik1EDEbDfPJ2JZCZCZA3kROkGHYhHJiwcmQ6D00tFe7KPXNAwyqcFc1Xo2jshE7ARja6wOvaABIVWxqIr1zTURGAgIhRQ6kwv9E5rZBnFrnr7y39xtiqDOAwzq5wZD';
+    var token = 'EAAHM9JGTkbgBALBX7RxZCMCJ3GZBAhsChTjdLSL3WdZCo7QSYMZC8abLmbhW4PtZAt4flgubSCZAiT7JuCt98kbWyNRZAbpeVWK0QxcA9PSK5ddNz7T3XuyFcC0FCO5xIIgUwaXET0GKrhHOFW1eS9V6vcdwNZAq77LpqIZCDTeHZAZBRoXKgiJ3Q60WDvZAyKdGh58ZD';
 
     //Ajax call
     $.ajax({
